@@ -228,7 +228,6 @@ export default function Hero() {
                     <div style={{ height: 8, background: "rgba(98,114,164,0.3)", borderRadius: 4, marginBottom: 4, width: "80%" }} />
                     <div style={{ height: 8, background: "rgba(98,114,164,0.3)", borderRadius: 4, marginBottom: 4, width: "65%" }} />
                     <div style={{
-                      marginTop: "auto",
                       marginTop: 16,
                       background: "rgba(189,147,249,0.12)",
                       border: "1px solid rgba(189,147,249,0.3)",
