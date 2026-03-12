@@ -75,8 +75,8 @@ const nextConfig: NextConfig = {
       // Redirect www to non-www
       {
         source: '/(.*)',
-        has: [{ type: 'host', value: 'www.sharvari.dev' }],
-        destination: 'https://sharvari.dev/:path*',
+        has: [{ type: 'host', value: 'www.thechangelog.app' }],
+        destination: 'https://thechangelog.app/:path*',
         permanent: true,
       },
     ]

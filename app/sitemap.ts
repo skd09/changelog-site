@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://sharvari.dev'
+  const baseUrl = 'https://thechangelog.app'
 
   return [
     {
