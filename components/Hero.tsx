@@ -130,7 +130,7 @@ export default function Hero() {
             aria-label="Download options"
           >
             <a
-              href="https://apps.apple.com"
+              href="https://apps.apple.com/us/app/the-changelog/id6759820812"
               target="_blank"
               rel="noopener noreferrer"
               className="store-btn"
@@ -148,7 +148,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="https://play.google.com"
+              href="https://play.google.com/store/apps/details?id=com.sharvari.changelog"
               target="_blank"
               rel="noopener noreferrer"
               className="store-btn"
