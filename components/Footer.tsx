@@ -103,7 +103,7 @@ export default function Footer() {
             aria-label="Download the app"
           >
             <a
-              href="https://apps.apple.com"
+              href="https://apps.apple.com/us/app/the-changelog/id6759820812"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Download on the App Store"
@@ -127,7 +127,7 @@ export default function Footer() {
               <span style={{ fontFamily: "var(--font-mono)", fontSize: 10, letterSpacing: "0.1em" }}>APP STORE</span>
             </a>
             <a
-              href="https://play.google.com"
+              href="https://play.google.com/store/apps/details?id=com.sharvari.changelog"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Get it on Google Play"
