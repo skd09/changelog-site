@@ -62,8 +62,7 @@ export default function PrivacyPage() {
 
       <h2>4. DATA STORAGE</h2>
       <p>
-        Data is stored on servers hosted by DigitalOcean in the United States. Our database is provided
-        by Neon (serverless PostgreSQL). Both providers maintain industry-standard security practices.
+        Data is stored on servers hosted by DigitalOcean (serverless PostgreSQL) in the United States. The provider maintain industry-standard security practices.
         Your anonymous device ID and aggregate stats are the only data stored server-side.
       </p>
 
