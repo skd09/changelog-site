@@ -130,7 +130,7 @@ export default function PrivacyPage() {
       <h2>10. CONTACT</h2>
       <p>
         Questions about this Privacy Policy? Contact us at:{" "}
-        <a href="mailto:hello@thechangelog.app">hello@thechangelog.app</a>
+        <a href="mailto:hello@sharvarid.dev@gmail.com">sharvarid.dev@gmail.com</a>
       </p>
 
     </PolicyLayout>

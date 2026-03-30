@@ -114,7 +114,7 @@ export default function TermsPage() {
       <h2>13. CONTACT</h2>
       <p>
         Questions about these Terms? Contact us at:{" "}
-        <a href="mailto:hello@thechangelog.app">hello@thechangelog.app</a>
+        <a href="mailto:sharvarid.dev@gmail.com">sharvarid.dev@gmail.com</a>
       </p>
 
     </PolicyLayout>
