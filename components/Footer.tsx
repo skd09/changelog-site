@@ -52,9 +52,9 @@ export default function Footer() {
                 lineHeight: 1.7,
               }}
             >
-              TECH NEWS. NO NOISE.
+              TECH NEWS. 10 SECONDS.
               <br />
-              AVAILABLE ON IOS &amp; ANDROID.
+              FREE ON IOS &amp; ANDROID.
             </p>
           </div>
 

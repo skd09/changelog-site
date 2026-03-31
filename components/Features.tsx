@@ -14,7 +14,7 @@ const features = [
     icon: "🔒",
     color: "#50FA7B",
     glow: "rgba(80,250,123,0.2)",
-    title: "Zero Tracking",
+    title: "No Personal Data Collected",
     body: "No account. No email. We use a random anonymous device ID — nothing tied to your identity. Your reading is yours alone.",
   },
   {
@@ -37,6 +37,13 @@ const features = [
     glow: "rgba(255,121,198,0.2)",
     title: "Reader Rank",
     body: "Track your reading streak, session stats, and rank up from Rookie to Legend. Knowledge has a scoreboard.",
+  },
+  {
+    icon: "🔔",
+    color: "#F1FA8C",
+    glow: "rgba(241,250,140,0.2)",
+    title: "Daily Digest",
+    body: "Set a notification time. Get your personalized tech briefing at 7am, lunch, or whenever. One tap to read. One tap to dismiss.",
   },
   {
     icon: "🆓",

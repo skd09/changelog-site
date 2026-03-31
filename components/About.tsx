@@ -3,10 +3,10 @@
 import { useEffect, useRef } from "react";
 
 const stats = [
-  { value: "10+", label: "Live Channels", color: "var(--neon)" },
-  { value: "30s", label: "Per Story", color: "var(--magenta)" },
-  { value: "0",   label: "Data Sold", color: "var(--green)" },
-  { value: "∞",   label: "Free Stories", color: "var(--cyan)" },
+  { value: "10",  label: "Live Channels", color: "var(--neon)" },
+  { value: "50+", label: "Sources", color: "var(--magenta)" },
+  { value: "0",   label: "Data Collected", color: "var(--green)" },
+  { value: "∞",   label: "Free Forever", color: "var(--cyan)" },
 ];
 
 export default function About() {

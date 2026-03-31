@@ -106,26 +106,6 @@ export default function Nav() {
             ))}
           </ul>
 
-          <a
-            href="/#hero"
-            aria-label="Download The Changelog app"
-            className="desktop-nav download-btn"
-            style={{
-              fontFamily: "var(--font-mono)",
-              fontSize: 11,
-              letterSpacing: "0.16em",
-              padding: "9px 22px",
-              border: "1px solid rgba(189,147,249,0.5)",
-              borderRadius: 8,
-              color: "var(--neon)",
-              background: "rgba(189,147,249,0.04)",
-              transition: "all 0.2s",
-              textDecoration: "none",
-            }}
-          >
-            DOWNLOAD ↓
-          </a>
-
           {/* Hamburger */}
           <button
             aria-label={menuOpen ? "Close menu" : "Open navigation menu"}
@@ -190,25 +170,6 @@ export default function Nav() {
             </li>
           ))}
         </ul>
-        <a
-          href="/#hero"
-          onClick={() => setMenuOpen(false)}
-          style={{
-            display: "block",
-            marginTop: 20,
-            fontFamily: "var(--font-mono)",
-            fontSize: 12,
-            letterSpacing: "0.16em",
-            color: "var(--neon)",
-            textAlign: "center",
-            padding: "12px",
-            border: "1px solid rgba(189,147,249,0.3)",
-            borderRadius: 10,
-            textDecoration: "none",
-          }}
-        >
-          DOWNLOAD THE APP ↓
-        </a>
       </div>
 
       <style>{`
