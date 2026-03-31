@@ -25,7 +25,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   title: "The Changelog — Tech News. No Noise.",
   description:
-    "Stay ahead of tech in under 30 seconds per story. No account. No tracking. No ads profiling. Available on iOS and Android.",
+    "Stay ahead of tech in under 10 seconds per story. No account. No tracking. Available on iOS and Android.",
   keywords: [
     "tech news app",
     "AI summaries",
@@ -38,14 +38,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: "The Changelog — Tech News. No Noise.",
     description:
-      "Stay ahead of tech in under 30 seconds per story. No account. No tracking.",
+      "Stay ahead of tech in under 10 seconds per story. No account. No tracking.",
     type: "website",
     locale: "en_CA",
   },
   twitter: {
     card: "summary_large_image",
     title: "The Changelog — Tech News. No Noise.",
-    description: "30-second tech news. No account. No tracking.",
+    description: "10-second tech news. No account. No tracking.",
   },
 };
 

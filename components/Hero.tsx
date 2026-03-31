@@ -101,7 +101,7 @@ export default function Hero() {
               marginBottom: 24,
             }}
           >
-            STAY AHEAD IN UNDER 30 SECONDS PER STORY
+            STAY AHEAD IN UNDER 10 SECONDS PER STORY
           </p>
 
           <p

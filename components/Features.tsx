@@ -7,7 +7,7 @@ const features = [
     icon: "⚡",
     color: "#FFB86C",
     glow: "rgba(255,184,108,0.2)",
-    title: "30-Second Stories",
+    title: "10-Second Stories",
     body: "Every article distilled to its essence by AI. Read the signal, skip the noise. Understand what matters in the time it takes to sip your coffee.",
   },
   {
@@ -15,7 +15,7 @@ const features = [
     color: "#50FA7B",
     glow: "rgba(80,250,123,0.2)",
     title: "Zero Tracking",
-    body: "No account. No email. No ad profiles. We use a random anonymous device ID — nothing tied to your identity. Your reading is yours alone.",
+    body: "No account. No email. We use a random anonymous device ID — nothing tied to your identity. Your reading is yours alone.",
   },
   {
     icon: "↔",

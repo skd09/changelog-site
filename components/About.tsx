@@ -141,7 +141,7 @@ export default function About() {
               </p>
               <p style={{ color: "var(--txt-dim)", fontSize: 16, lineHeight: 1.8 }}>
                 We built something different: an AI-powered news reader that strips every story 
-                to its core, delivers it in a card you can read in 30 seconds, and asks absolutely 
+                to its core, delivers it in a card you can read in 10 seconds, and asks absolutely 
                 nothing from you in return.
               </p>
               <p style={{ color: "var(--txt-dim)", fontSize: 16, lineHeight: 1.8 }}>
