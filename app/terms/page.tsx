@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function TermsPage() {
   return (
-    <PolicyLayout title="TERMS OF SERVICE" updated="FEBRUARY 2026">
+    <PolicyLayout title="TERMS OF SERVICE" updated="APRIL 2026">
 
       <p>
         These Terms of Service ("Terms") govern your use of The Changelog mobile application ("the App")

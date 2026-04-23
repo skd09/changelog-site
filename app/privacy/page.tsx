@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function PrivacyPage() {
   return (
-    <PolicyLayout title="PRIVACY POLICY" updated="FEBRUARY 2026">
+    <PolicyLayout title="PRIVACY POLICY" updated="APRIL 2026">
 
       <p>
         The Changelog ("we", "our", "us") is committed to protecting your privacy. This Privacy Policy
