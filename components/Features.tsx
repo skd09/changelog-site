@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import SpotlightCard from "@/components/ui/SpotlightCard";
 
 const features = [
   {
@@ -116,46 +117,48 @@ export default function Features() {
       {/* Feature grid — bento-style */}
       <div className="features-grid stagger">
         {features.map((f, i) => (
-          <article
+          <SpotlightCard
             key={f.title}
             className={`reveal feat-card feat-card--${i}`}
-            aria-labelledby={`feat-${f.title.replace(/\s/g, "-").toLowerCase()}`}
+            spotlightColor={f.glow}
           >
-            {/* Stat corner */}
-            <div className="feat-stat" style={{ color: f.color }}>
-              <span className="feat-stat__value">{f.stat}</span>
-              <span className="feat-stat__label">{f.statLabel}</span>
-            </div>
+            <article aria-labelledby={`feat-${f.title.replace(/\s/g, "-").toLowerCase()}`}>
+              {/* Stat corner */}
+              <div className="feat-stat" style={{ color: f.color }}>
+                <span className="feat-stat__value">{f.stat}</span>
+                <span className="feat-stat__label">{f.statLabel}</span>
+              </div>
 
-            {/* Icon */}
-            <div
-              className="feat-icon"
-              style={{
-                background: f.glow,
-                border: `1px solid ${f.color}30`,
-                boxShadow: `0 0 24px ${f.glow}`,
-              }}
-              aria-hidden="true"
-            >
-              {f.icon}
-            </div>
+              {/* Icon */}
+              <div
+                className="feat-icon"
+                style={{
+                  background: f.glow,
+                  border: `1px solid ${f.color}30`,
+                  boxShadow: `0 0 24px ${f.glow}`,
+                }}
+                aria-hidden="true"
+              >
+                {f.icon}
+              </div>
 
-            <h3
-              id={`feat-${f.title.replace(/\s/g, "-").toLowerCase()}`}
-              className="feat-title"
-              style={{
-                color: f.color,
-                textShadow: `0 0 16px ${f.glow}`,
-              }}
-            >
-              {f.title.toUpperCase()}
-            </h3>
+              <h3
+                id={`feat-${f.title.replace(/\s/g, "-").toLowerCase()}`}
+                className="feat-title"
+                style={{
+                  color: f.color,
+                  textShadow: `0 0 16px ${f.glow}`,
+                }}
+              >
+                {f.title.toUpperCase()}
+              </h3>
 
-            <p className="feat-body">{f.body}</p>
+              <p className="feat-body">{f.body}</p>
 
-            {/* Decorative accent line */}
-            <div className="feat-accent" style={{ background: `linear-gradient(90deg, ${f.color}, transparent)` }} aria-hidden="true" />
-          </article>
+              {/* Decorative accent line */}
+              <div className="feat-accent" style={{ background: `linear-gradient(90deg, ${f.color}, transparent)` }} aria-hidden="true" />
+            </article>
+          </SpotlightCard>
         ))}
       </div>
 

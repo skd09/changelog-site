@@ -155,6 +155,24 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Product Hunt badge */}
+        <div style={{ display: "flex", justifyContent: "center", padding: "24px 0 32px" }}>
+          <a
+            href="https://www.producthunt.com/posts/the-changelog?utm_source=badge-featured&utm_medium=badge"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="The Changelog on Product Hunt"
+          >
+            <img
+              src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=the-changelog&theme=dark"
+              alt="The Changelog - Tech news in 10 seconds. No account. No tracking. | Product Hunt"
+              style={{ width: 250, height: 54 }}
+              width="250"
+              height="54"
+            />
+          </a>
+        </div>
+
         {/* Divider */}
         <div style={{
           height: 1,

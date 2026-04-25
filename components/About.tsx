@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import GlareHover from "@/components/ui/GlareHover";
 
 const stats = [
   { value: "10",  label: "Live Channels", color: "var(--neon)" },
@@ -154,56 +155,54 @@ export default function About() {
           {/* Right: principles */}
           <div className="reveal" style={{ display: "flex", flexDirection: "column", gap: 20 }}>
             {[
-              { title: "Privacy by design", body: "Anonymous device IDs only. No PII ever collected. Built on DigitalOcean + Neon — your data never touches ad networks.", color: "var(--green)" },
-              { title: "AI-powered summaries", body: "Every article processed by Claude (Anthropic) server-side. Only article text goes to the API — never your data.", color: "var(--neon)" },
-              { title: "Radically simple UX", body: "One swipe to skip, one swipe to read. No algorithmic feed manipulation. Chronological. Clean. Fast.", color: "var(--magenta)" },
-              { title: "Open feedback loop", body: "Found a bug? Have a channel suggestion? In-app feedback goes straight to us. No email required.", color: "var(--cyan)" },
+              { title: "Privacy by design", body: "Anonymous device IDs only. No PII ever collected. Built on DigitalOcean + Neon — your data never touches ad networks.", color: "#50FA7B" },
+              { title: "AI-powered summaries", body: "Every article processed by Claude (Anthropic) server-side. Only article text goes to the API — never your data.", color: "#BD93F9" },
+              { title: "Radically simple UX", body: "One swipe to skip, one swipe to read. No algorithmic feed manipulation. Chronological. Clean. Fast.", color: "#FF79C6" },
+              { title: "Open feedback loop", body: "Found a bug? Have a channel suggestion? In-app feedback goes straight to us. No email required.", color: "#8BE9FD" },
             ].map((p) => (
-              <div
+              <GlareHover
                 key={p.title}
-                style={{
-                  padding: "22px 24px",
-                  background: "var(--surface)",
-                  borderRadius: 16,
-                  border: "1px solid var(--border)",
-                  display: "flex",
-                  gap: 16,
-                  alignItems: "flex-start",
-                  transition: "border-color 0.3s",
-                }}
+                glareColor={p.color}
+                glareOpacity={0.08}
                 className="about-item"
               >
                 <div style={{
-                  width: 4, minHeight: 40, borderRadius: 2,
-                  background: p.color, flexShrink: 0, marginTop: 2,
-                  boxShadow: `0 0 10px ${p.color}80`,
-                }} aria-hidden="true" />
-                <div>
-                  <h3 style={{
-                    fontFamily: "var(--font-mono)",
-                    fontSize: 12, letterSpacing: "0.12em",
-                    color: p.color, marginBottom: 8,
-                  }}>
-                    {p.title.toUpperCase()}
-                  </h3>
-                  <p style={{ color: "var(--txt-dim)", fontSize: 14, lineHeight: 1.7 }}>
-                    {p.body}
-                  </p>
+                  padding: "22px 24px",
+                  display: "flex",
+                  gap: 16,
+                  alignItems: "flex-start",
+                }}>
+                  <div style={{
+                    width: 4, minHeight: 40, borderRadius: 2,
+                    background: p.color, flexShrink: 0, marginTop: 2,
+                    boxShadow: `0 0 10px ${p.color}80`,
+                  }} aria-hidden="true" />
+                  <div>
+                    <h3 style={{
+                      fontFamily: "var(--font-mono)",
+                      fontSize: 12, letterSpacing: "0.12em",
+                      color: p.color, marginBottom: 8,
+                    }}>
+                      {p.title.toUpperCase()}
+                    </h3>
+                    <p style={{ color: "var(--txt-dim)", fontSize: 14, lineHeight: 1.7 }}>
+                      {p.body}
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </GlareHover>
             ))}
           </div>
         </div>
       </div>
 
       <style>{`
-        .about-grid { @media (max-width: 900px) { grid-template-columns: 1fr !important; } }
         @media (max-width: 900px) {
           .about-grid { grid-template-columns: 1fr !important; gap: 48px !important; }
           ul[style*="repeat(4"] { grid-template-columns: repeat(2, 1fr) !important; }
         }
         @media (max-width: 480px) {
-          ul[style*="repeat(4"] { grid-template-columns: repeat(2, 1fr) !important; }
+          ul[style*="repeat(4"] { grid-template-columns: 1fr !important; }
         }
         .about-item:hover { border-color: rgba(189,147,249,0.25) !important; }
       `}</style>
