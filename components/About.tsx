@@ -4,9 +4,9 @@ import { useEffect, useRef } from "react";
 
 const stats = [
   { value: "10",  label: "Live Channels", color: "var(--neon)" },
-  { value: "50+", label: "Sources", color: "var(--magenta)" },
+  { value: "50+", label: "Sources Scanned", color: "var(--magenta)" },
   { value: "0",   label: "Data Collected", color: "var(--green)" },
-  { value: "∞",   label: "Free Forever", color: "var(--cyan)" },
+  { value: "24/7", label: "Fresh Content", color: "var(--cyan)" },
 ];
 
 export default function About() {
